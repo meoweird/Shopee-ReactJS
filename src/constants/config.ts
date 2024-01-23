@@ -1,5 +1,5 @@
 const config = {
-  baseURL: 'https://api-ecom.duthanhduoc.com/',
+  baseURL: import.meta.env.VITE_BASE_URL,
   maxSizeUploadAvatar: 1048576
 }
 
